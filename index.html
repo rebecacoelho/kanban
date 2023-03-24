@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Kanban</title>
+</head>
+<body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="">
+        </div>
+        <div class="options">
+          <div class="option">
+            <img src="./assets/tablet.svg" alt="">
+            <p>Boards</p>
+          </div>
+          <div class="option">
+            <img src="./assets/people.svg" alt="">
+            <p>Equipes</p>
+          </div>
+          <div class="option">
+            <img src="./assets/document.svg" alt="">
+            <p>Relatórios</p>
+          </div>
+          <div class="option">
+            <img src="./assets/conf.svg" alt="">
+            <p>Ajustes</p>
+          </div>
+        </div>
+      </div>
+      <div class="kanban">
+        <div class="kanban-body">
+          <div class="kanban-header">
+            <div class="kanban-title">
+              <h1>Meu Kanban</h1>
+              <img src="./assets/pencil.svg" alt="">
+            </div>
+            <div class="kanban-icon">
+              <img src="./assets/icon.jpg" alt="">
+            </div>
+          </div>
+          <div class="filter">
+            <button>
+              <img src="./assets/filter.svg" alt="">
+              <p>Filtrar</p>
+            </button>
+            <img class="search" src="./assets/search.svg" alt="">
+            <input type="text" placeholder="Busque por cards, assuntos ou responsáveis...">
+          </div>
+        </div>
+        <div class="kanban-main">
+          <div class="to-do">
+            <h3>A fazer</h3>
+            <div class="items">
+              <div class="kanban-item">
+                <span class="kanban-item-span">#boraCodar um Kanban 🧑‍💻</span>
+                <p>Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.</p>
+                <div class="targets">
+                  <div class="target">
+                    <span>rocketseat</span>
+                  </div>
+                  <div class="target">
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+              <div class="kanban-item">
+                <span class="kanban-item-span">Manter a ofensiva 🔥</span>
+                <p>Manter minha atividade na plataforma da Rocketseat para não perder a ofensiva</p>
+                <div class="targets">
+                  <div class="target">
+                    <span>rocketseat</span>
+                  </div>
+                </div>
+              </div>
+              <div class="kanban-item">
+                <span class="kanban-item-span">Almoçar 🥗</span>
+                <p>Me alimentar, aproveitando um momento de descanso para recarregar minhas energias durante o almoço</p>
+                <div class="targets">
+                  <div class="target">
+                    <span>autocuidado</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="doing">
+            <h3>Fazendo</h3>
+            <div class="items">
+              <div class="kanban-item">
+                <span class="kanban-item-span">Conferir o novo desafio 🚀 </span>
+                <p>Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível</p>
+                <div class="targets">
+                  <div class="target">
+                    <span>rocketseat</span>
+                  </div>
+                  <div class="target">
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+              <div class="kanban-item">
+                <span class="kanban-item-span">Ser incrível 😎 </span>
+                <p>Sempre me lembrar de manter minha autenticidade e espalhar amor</p>
+                <div class="targets">
+                  <div class="target">
+                    <span>autocuidado</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="completed">
+            <h3>Feito</h3>
+            <div class="items">
+              <div class="kanban-item">
+                <span class="kanban-item-span">#boraCodar uma página de login 🧑‍💻</span>
+                <p>Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.</p>
+                <div class="targets">
+                  <div class="target">
+                    <span>rocketseat</span>
+                  </div>
+                  <div class="target">
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+              <div class="kanban-item">
+                <span class="kanban-item-span">#boraCodar uma página de clima 🧑‍💻</span>
+                <p>Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.</p>
+                <div class="targets">
+                  <div class="target">
+                    <span>rocketseat</span>
+                  </div>
+                  <div class="target">
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+              <div class="kanban-item">
+                <span class="kanban-item-span">#boraCodar um conversor 🧑‍💻</span>
+                <p>Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.</p>
+                <div class="targets">
+                  <div class="target">
+                    <span>rocketseat</span>
+                  </div>
+                  <div class="target">
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>

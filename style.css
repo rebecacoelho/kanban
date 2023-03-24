@@ -1,0 +1,168 @@
+body {
+  background: #7C3AED;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+textarea, input, button {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.logo {
+  margin: 32px;
+  margin-bottom: 4rem;
+}
+
+.options {
+  margin-left: 32px;
+}
+
+.option {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.option p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.option:first-child {
+  font-weight: 700;
+}
+
+.kanban {
+  height: 100%;
+  background: #FBFAFF;
+  border-top-left-radius: 32px;
+}
+
+.kanban-body {
+  margin: 0 52px;
+  margin-top: 48px;
+}
+
+.kanban-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.kanban-title {
+  display: flex;
+  gap: 12px;
+}
+
+.kanban-title h1 {
+  color: #403937;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.kanban-icon img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+}
+
+.filter {
+  display: flex;
+  gap: 14px;
+  position: relative;
+}
+
+.filter button {
+  color: #fff;
+  background: #7C3AED;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 0 28px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.filter input {
+  width: 100%;
+  padding: 14px;
+  padding-left: 3.4rem;
+  border: 0.7px solid #E3E3E3;
+  box-shadow: 0px 4px 16px rgba(22, 22, 22, 0.1);
+  border-radius: 8px;
+}
+
+.search {
+  position: absolute;
+  right: 82%;
+  bottom: 22%;
+}
+
+.kanban-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 52px;
+  margin-top: 32px;
+  gap: 4rem;
+}
+
+.kanban-main h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #403937;
+  margin-top: -10p;
+  margin-bottom: -10px;
+}
+
+.items {
+  margin-bottom: 20px;
+}
+
+.kanban-item {
+  padding: 24px;
+  box-shadow: 0px 4px 16px #EAE2FD;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.kanban-item-span  {
+  font-weight: 700;
+  color: #403937;
+}
+
+.kanban-item p {
+  color: #756966;
+  font-weight: 500;
+  font-size: 14px
+}
+
+.targets {
+  display: flex;
+  gap: 8px;
+}
+
+.target {
+  color: #7C3AED;
+  padding: 4px 8px;
+  font-size: 11px;
+  background: #E2D6FF;
+  border-radius: 8px;
+}
+
+.to-do, .doing, .completed {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
